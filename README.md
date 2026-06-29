@@ -19,11 +19,18 @@ Excel (Power Query, Pivot Tables) | SQL (SQLite) | Power BI (DAX, drill-down, co
 
 ## Dashboard Pages
 - **Overview:** KPI cards, attrition split, department snapshot
+![Overview](page1_overview.png)
+
 - **Department Drill-Down:** Interactive Department → Job Role drill-down, risk matrix
+![Department Drill-Down](page2_drilldown.png)
+
 - **Drivers of Attrition:** Income, tenure, satisfaction, and overtime impact on attrition
+![Drivers of Attrition](page3_drivers.png)
+
 - **At-Risk Employees:** Filtered list of 99 high-risk employees with supporting KPIs
+![At-Risk Employees](page4_atrisk.png)
 
 ## Files
 - `attrition_queries.sql` — all SQL queries used
 - `hr_attrition_dashboard.pbix` — Power BI dashboard file
-- Screenshots of each dashboard page
+  
